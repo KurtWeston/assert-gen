@@ -1,0 +1,29 @@
+{
+  "function": "Add",
+  "test_cases": [
+    {
+      "name": "positive numbers",
+      "inputs": {
+        "a": 5,
+        "b": 3
+      },
+      "output": 8
+    },
+    {
+      "name": "negative numbers",
+      "inputs": {
+        "a": -5,
+        "b": -3
+      },
+      "output": -8
+    },
+    {
+      "name": "zero values",
+      "inputs": {
+        "a": 0,
+        "b": 0
+      },
+      "output": 0
+    }
+  ]
+}
